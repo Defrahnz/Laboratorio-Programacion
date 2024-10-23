@@ -28,4 +28,4 @@ npx ng serve --o
 
 ## Datos a considerar
 
->[!CAUTION] Es necesario considerar que el proyecto, a pesar de estar ejecutandose, tiene un error en el frontend del tipo "No provider for HttpClient" y no está mostrando en pantalla los datos.
+>[!IMPORTANT] Es necesario considerar que el proyecto, a pesar de estar ejecutandose, tiene un error en el frontend del tipo "No provider for HttpClient" y no está mostrando en pantalla los datos.
