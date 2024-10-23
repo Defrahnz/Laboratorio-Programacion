@@ -30,3 +30,6 @@ npx ng serve --o
 
 > [!IMPORTANT]
 > Es necesario considerar que el proyecto, a pesar de estar ejecutandose, tiene un error en el frontend del tipo "No provider for HttpClient" y no está mostrando en pantalla los datos.
+
+> [!WARNING]
+> En github la carpeta de frontend no se subió correctamente y estoy tratando de repararlo
