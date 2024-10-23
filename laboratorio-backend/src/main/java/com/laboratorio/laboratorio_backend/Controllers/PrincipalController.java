@@ -24,10 +24,12 @@ public class PrincipalController {
         return "Hola";
     }
 
+   //Traemos el servicio para construir lo necesario para trabajar
     public PrincipalController(PrincipalService principalService){
         this.principalService=principalService;
     }
 
+   //Con GetMapping hacemos que la ruta de la api traiga todos los datos del model
     @GetMapping
     public ResponseEntity<List<PrincipalModel>> getElectronicos(){
         try{
